@@ -66,6 +66,43 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
-# DSS_UTA_Website
-This project is a Decision Support System (DSS) built with Laravel 12, implementing the UTA (UTilités Additives) method to rank and recommend alternatives based on multiple criteria. The application allows users to input alternatives and criteria, compute rankings using the UTA method, and export the result as a downloadable PDF.
+
+# 🧠 UTA-Based Decision Support System – Laravel 12
+
+This project is a **Decision Support System (DSS)** built with **Laravel 12**, implementing the **UTA (UTilités Additives)** method to rank and recommend alternatives based on multiple criteria. The application allows users to input alternatives and criteria, compute rankings using the UTA method, and export the result as a downloadable PDF.
+
+---
+
+## ⚙️ Key Features
+
+- ➕ **Add Alternatives**  
+  Input a list of options (e.g., products, services, candidates) to be evaluated.
+
+- 🧾 **Add Criteria**  
+  Define evaluation criteria with weight and type (cost/benefit).
+
+- 📊 **UTA Calculation Process**  
+  Perform ranking using the UTilités Additives method:
+  - Normalize decision matrix
+  - Generate utility values
+  - Calculate final scores
+  - Rank the alternatives
+
+- 📥 **Export PDF Report**  
+  Download the final decision ranking and utility values as a well-formatted PDF.
+
+---
+
+## 🛠️ Built With
+
+| Technology      | Description                                |
+|------------------|--------------------------------------------|
+| Laravel 12       | PHP Web Framework for MVC structure        |
+| MySQL / PostgreSQL | Relational database for storing data      |
+| Blade Template   | Frontend views                             |
+| Barryvdh/DomPDF  | Generate PDF reports from views            |
+| Bootstrap/Tailwind (optional) | Styling and responsive layout      |
+
+---
+
 >>>>>>> 427694a22f3ad2e0903f03fd41370130c8ee329e
