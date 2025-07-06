@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# DSS_UTA_Website
+This project is a Decision Support System (DSS) built with Laravel 12, implementing the UTA (UTilités Additives) method to rank and recommend alternatives based on multiple criteria. The application allows users to input alternatives and criteria, compute rankings using the UTA method, and export the result as a downloadable PDF.
+>>>>>>> 427694a22f3ad2e0903f03fd41370130c8ee329e
